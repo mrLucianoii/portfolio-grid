@@ -1,22 +1,26 @@
 import React, { PureComponent } from 'react';
 import sdTable from './sd_table.svg';
+
 import './styles.scss';
 
+interface Props {
+    header?: string;
+    image?: boolean;
+  }
 
-class Landing extends PureComponent {
+class Landing extends PureComponent<Props, {}> {
     render() {
-        return <div className="landing-container">
-            <div>
-            <img id="sd_table" src={sdTable} />
-
-            <div className="sd_atom">
+        const { header, image } = this.props;
+        return <header className="App-header">
+             <img id="sd_table" src={sdTable} />
+             <div className="sd_atom">
                 <div className="inner one"></div>
                 <div className="inner two"></div>
                 <div className="inner three"></div>
                 <div className="nucleus"></div>
             </div>
-            </div>
-        </div>
+            <h1>{header}</h1>
+        </header>
     }
 }
 

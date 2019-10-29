@@ -24,6 +24,7 @@ import litApp from './images/lit-app.png';
 import massimo2 from './images/branded-work/massimo2.jpg';
 import solidChip from './images/branded-work/solid-chip.png';
 import medium1 from './images/medium.png';
+import ourCosmos from './images/ourcosmos.png';
 
 export const data: any[] = [
     {
@@ -58,6 +59,10 @@ export const data: any[] = [
     //     toolTip: 'Personal Project: WeCliques streaming video social media clip generator. 2011 to present',
     //     image:
     // },
+    {
+        toolTip: 'Personal Project: Ourcosmos.us is a search engine for NASA\'/s Database. 2018 to present',
+        image: ourCosmos,
+    },
     {
         toolTip: 'Cisco dashboard frontend consulting and development. circa 2013',
         image: ciscoDashboard,

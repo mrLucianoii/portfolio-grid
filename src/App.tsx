@@ -1,14 +1,30 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 import PortfolioGridLayout from './PortfolioGrid';
-import Landing from './landing';
+import Home from './landing/home';
 import './main.scss';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <PortfolioGridLayout />
-      </header>
+      <Router>
+        <div>
+          <Switch>
+            <Route path="/portfolio">
+              <PortfolioGridLayout />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
     </div>
   );
 }

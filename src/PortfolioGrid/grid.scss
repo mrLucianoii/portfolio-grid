@@ -3,6 +3,9 @@
   width: 100%;
   max-height: 100%;
 }
+h1 {
+  color: #f3f3f3;
+}
 
 @supports (display: grid) {
     .grid {
@@ -53,8 +56,15 @@
       }
     }
 
-    .grid .item:nth-child(1)  { grid-area: hero; }
-    .grid .item:nth-child(2)  { grid-area: big1; }
+    .grid .item:nth-child(1)  { grid-area: hero;
+      background-image: url('./data/images/branded-work/test.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .grid .item:nth-child(2)  {
+      grid-area: big1;
+
+    }
     .grid .item:nth-child(3)  { grid-area: med1; }
     .grid .item:nth-child(4)  { grid-area: med2; }
     .grid .item:nth-child(5)  { grid-area: small1; }
@@ -202,6 +212,11 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+  }
+
+  .box.portfolio {
+    justify-content: left;
+    align-items: baseline;
   }
 
   .diamond {
