@@ -1,5 +1,5 @@
 import massimo from './images/branded-work/massimo1.png';
-import jpMorgan from './images/jp-investments.png';
+import jpMorgan from './images/jp-morgan.jpg';
 import galaxyDigital from './images/Galaxy-Digital.jpg';
 import ciscoDashboard from './images/cisco-app/Dashboard.jpg';
 import tapInfluence from './images/tapInfluence.png';
