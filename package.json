@@ -1,6 +1,6 @@
 {
   "name": "portfolio-grid",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
   "typings": "./index.d.ts",
   "dependencies": {
