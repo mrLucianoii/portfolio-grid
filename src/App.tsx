@@ -19,6 +19,9 @@ const App: React.FC = () => {
             <Route path="/portfolio">
               <PortfolioGridLayout />
             </Route>
+            <Route path="/starsTest">
+              <StarCanvas />
+            </Route>
             <Route path="/">
               <Home />
             </Route>
