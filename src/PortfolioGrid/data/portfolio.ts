@@ -36,14 +36,14 @@ export const data: any[] = [
     {
         job: 'Brand Identity: Graphic Design',
         company: 'Branded Solid',
-        description: 'Solid needed to introduce itself as a branding consultant.  I leaned on Vignelli design principals and fused my own design symbals to introduce myself as a graphic designer and brand identity consultant.',
+        description: 'Solid needed to introduce itself as a branding consultant.  I leaned on Vignelli design principals and fused my own design symbols to introduce myself as a graphic designer and brand identity consultant.',
         toolTip: 'Graphic Design inpired by Mr. & Mrs. Vegnelli.  circa 2012',
         image: massimo,
     },
     {
         job: 'Lead Full Stack JavaScript Software Engineer',
         company: 'JP Morgan Chase Investment Banking',
-        description: 'Joined the client side investment banking platform development team. Restructured there main codebase of 40+ React components into individual React Applications.',
+        description: 'Joined the client facing investment banking platform development team. Restructured their main codebase of 40+ React components into individual React Applications.',
         detailBullet: [
             'Engineered and deployed a SQLServer DB and CRUD Node JS Endpoint for onboarding  banking clients.',
             'Architected a starter app repository to migrate 15+ React Apps to a micro serviced frontend.',
@@ -55,9 +55,9 @@ export const data: any[] = [
         image: jpMorgan,
     },
     {
-        job: 'Lead Front End Software Engineer',
+        job: 'Lead Front End Software Engineer & UI/UX Designer',
         company: 'Galaxy Digital',
-        description: 'Galaxy Digital needed a turn key repository set up for there long-term offshore development strategy within three months time budget.  I set up code standards via eslint and onboarding there offshore team for a seamless transition of ownership',
+        description: 'Galaxy Digital needed a turn key repository set up for their long-term offshore development strategy within a three months time budget.  I set up code standards via eslint and onboarded there offshore team for a seamless transition ofproduct  ownership',
         detailBullet: [
             'Designed a UI/UX New Settlements dashboard from a Microsoft Excel mock up sheet.',
             'Developed an ag-grid React calculator for crypto-currencies exposure and mark-to-market values.',
@@ -158,7 +158,7 @@ export const data: any[] = [
         image: payPal,
     },
     {
-        job: 'Full Stack Software Engineer',
+        job: 'Full Stack Software Engineer & Lead UX/UI Designer',
         description: 'Brand and Technology consultant developing UI/UX and web applications',
         detailBullet: [
             'Designed and developed 3 User Interfaces  for a new website, inventory filter, and calculator.',
@@ -170,14 +170,14 @@ export const data: any[] = [
         image: sollars,
     },
     {
-        job: 'Full Stack Software Engineer',
+        job: 'Full Stack Software Engineer & Lead UX/UI Designer',
         company: 'Talk of the Town',
         description: 'PHP and Wordpress developer for a non profit entity.  Talk of the Town is a youth out reach program serving Oakland and San Jose Califronia comunities.',
         toolTip: 'Not for profit Talk of the Town Branding and Web Development.  Jan-2014 to July-2018',
         image: talkoftown,
     },
     {
-        job: 'Full Stack Software Engineer',
+        job: 'Full Stack Software Engineer & Lead UX/UI Designer',
         logo: visualLaw,
         description: 'Consulted technology within a litigation context.  Litigation is a story and Visual Law utilized my branding and technology skills to help tell the story of fact and evidence for US Court Cases',
         detailBullet: [
@@ -201,7 +201,7 @@ export const data: any[] = [
         image: ciscoApp1,
     },
     {
-        job: 'Full Stack Software Engineer',
+        job: 'Full Stack Software Engineer & UX/UI Designer',
         company: 'Branded Solid',
         description: 'Templating library for static HTML5 pages designed for non-engineers to build websites by simply pointing and clicking.',
         detailBullet: [
