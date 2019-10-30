@@ -10,12 +10,14 @@ import pureStorage from './images/login_v3.png';
 import pureStorageLogo from './images/pureStorageDark.png';
 import sollars from './images/sollars.jpg';
 import talkoftown from './images/talkofthetown.png';
+import visualLaw from './images/visual-law.png';
 import pointcloud from './images/pointcloud.png';
 import ciscoLogo from './images/ciscoLogoDark.png';
 import ciscoApp1 from './images/cisco-app/not-loggedin-sidemenu.png';
 import ciscoModal from './images/modal-cisco.png';
 import ezcms1 from './images/ezcms/ezcms-1.png';
 import becor from './images/becor.png';
+import avayaLogo from './images/avaya-logo.png';
 import avayaMap from './images/design.png';
 import sollarsCalc from './images/sollars-calculator.png';
 import law1 from './images/law/law-UI.png';
@@ -176,6 +178,7 @@ export const data: any[] = [
     },
     {
         job: 'Full Stack Software Engineer',
+        logo: visualLaw,
         description: 'Consulted technology within a litigation context.  Litigation is a story and Visual Law utilized my branding and technology skills to help tell the story of fact and evidence for US Court Cases',
         detailBullet: [
             'Constructed a hybrid mobile cross platform application with PhoneGap, and VisJS to present trial evidence.',
@@ -219,6 +222,7 @@ export const data: any[] = [
         image: massimo2
     },
     {
+        logo: avayaLogo,
         toolTip: 'Map redesign for Avaya Event. circa 2016',
         image: avayaMap,
     },
@@ -255,6 +259,7 @@ export const data: any[] = [
         image: mgaWeb,
     },
     {
+        logo: visualLaw,
         toolTip: "Visual Law: Litigation App for presenting evidence. circa 2016",
         image: litApp,
     }
