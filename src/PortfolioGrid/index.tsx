@@ -10,11 +10,14 @@ class PortfolioGridLayout extends PureComponent {
         return protfolioData.map((item, key) => {
             return <div className="item" key={`portfolio-${key}`}>
                 <div className="box" >
-                    <DetailModal itemNode={ <>
-                        <img src={item.image} />
-                        <div className=""><p>{item.toolTip}</p></div>
-                    </>
-                    } />
+                    <DetailModal
+                        itemNode={ <>
+                            <img src={item.logo ? item.logo : item.image} />
+                            <div className=""><p>{item.toolTip}</p></div>
+                        </>
+                        }
+                        detail={item}
+                    />
                 </div>
             </div>
         }
