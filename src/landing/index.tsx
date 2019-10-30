@@ -5,12 +5,11 @@ import './styles.scss';
 
 interface Props {
     header?: string;
-    image?: boolean;
   }
 
 class Landing extends PureComponent<Props, {}> {
     render() {
-        const { header, image } = this.props;
+        const { header } = this.props;
         return <header className="App-header">
              <img id="sd_table" src={sdTable} />
              <div className="sd_atom">
