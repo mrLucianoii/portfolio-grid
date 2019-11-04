@@ -5,7 +5,7 @@ import { ProjectProps, PaperProps } from './models';
 // constants
 const paperScope: PaperProps = (paper as any);
 let mousePos: any, position: any;
-const count: number = 333;
+const count: number = 89;
 const width: number = window.innerWidth || 0;
 const height: number = window.innerHeight || 0;
 
@@ -23,10 +23,10 @@ class StarCanvas extends PureComponent {
     // Create a symbol, which we will use to place instances of later:
     const path: Object = new Path.Circle({
       center: [0, 0],
-      radius: 3,
+      radius: 2,
       fillColor: 'rgba(255, 255, 255, 1)',
       strokeColor: 'rgba(153, 10, 37, 1)',
-      strokeWidth: 2
+      strokeWidth: 1
     });
 
     const symbol = new (Symbol as any)(path);
@@ -39,8 +39,8 @@ class StarCanvas extends PureComponent {
       placed.scale(i / count + 0.01);
       placed.data = {
         vector: new Point({
-          angle: Math.random() * 355,
-          length: (i / count) * Math.random() / 5
+          angle: Math.random() * 610,
+          length: (i / count) * Math.random() / 8
         })
       };
     }
@@ -104,7 +104,7 @@ class StarCanvas extends PureComponent {
     paperScope.view.onFrame = () => {
       position = position.add((mousePos.subtract(position).divide(10)));
       var vector = ((view as any).center.subtract(position)).divide(10);
-      this.moveStars(vector.multiply(1));
+      this.moveStars(vector.multiply(3));
     };
 
   }

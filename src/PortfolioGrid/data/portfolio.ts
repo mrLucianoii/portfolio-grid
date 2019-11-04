@@ -123,7 +123,7 @@ export const data: any[] = [
     {
         job: 'Full Stack Software Engineer',
         company: 'Personal Project',
-        description: 'Website creation tool offering a competitive option to Wordpress by allowing for more complex UI’s and faster load times.',
+        description: 'A NASA search engine to allow easier access our sky above us.',
         detailBullet: [
             'Built a RESTful architecture with Golang to get and serve NASA’s Astronomy  and Curiosity Rover Data.',
             'Designed a React-Redux patterned UI that is served from a separate Node-express server.',
@@ -213,52 +213,77 @@ export const data: any[] = [
         image: ezcms1,
     },
     {
-        job: 'Full Stack Software Engineer',
+        job: 'Full Stack Software Engineer & UX/UI Designer',
+        company: 'Becor Janitorial services',
+        href: 'http://teambecor.com/',
+        description: 'A respected and established Janitorial Service in San Jose, CA hired SOLID to develop a brand identity and website.',
         toolTip: 'Becor Brand and Web Development consultant. Jan-2012 to July-2018',
         image: becor,
     },
     {
+        job: 'Brand Identity: Graphic Design',
+        company: 'Branded Solid',
+        description: 'Solid needed to introduce itself as a branding consultant.  I leaned on Vignelli design principals and fused my own design symbols to introduce myself as a graphic designer and brand identity consultant.',
         toolTip: 'Branding and Desing for Branded SOLID. circa 2012',
         image: massimo2
     },
     {
+        job: 'Designer',
         logo: avayaLogo,
+        description: 'Constructed multiple user friendly maps from building blue-prints for corporate events.',
         toolTip: 'Map redesign for Avaya Event. circa 2016',
         image: avayaMap,
     },
     {
+        job: 'Lead Front End Software Engineer & UI/UX Designer',
+        description: 'Engineered a calculator, designing the data structure and methods in JavaScript, resulting in 40% conversion.',
         toolTip: 'Design and Development of Sollars Home Calculator. circa 2016',
         image: sollarsCalc,
     },
     {
+        job: 'Full Stack Software Engineer & UX/UI Designer',
+        description: 'Design a new UX/UI flow. Built a static HTML, CSS multi-page website',
         toolTip: 'McGuinn, Hillsman & Palefsky Redesign and Web Development. circa 2013',
         image: law1,
     },
     {
+        job: 'Brand Identity: Graphic Design',
         toolTip: 'Sozo Brand Identity Consulting. circa 2017',
         image: sozoBrand1,
     },
     {
+        job: 'Full Stack Software Engineer & UX/UI Designer',
         toolTip: 'Flexzone Branding and Web Development Consulting. circa 2016',
         image: flexzone,
     },
     {
+        job: 'Full Stack Software Engineer & UX/UI Designer',
         toolTip: 'Pop-up SF Branding and Web Development. circa 2014',
         image: popUpSf,
     },
     {
+        job: 'Brand Identity: Graphic Design',
+        company: 'Branded Solid',
+        description: 'Solid needed to introduce itself as a branding consultant.',
         toolTip: 'Branding design for Branded Solid. circa 2013',
         image: solidChip,
     },
     {
+        job: 'Brand Identity: Graphic Design',
+        description: 'Tell a story that will move and symbolize a brands trust',
         toolTip: 'Sozo Branding: Business cards. circa 2017',
         image: sozoCards,
     },
     {
+        job: 'Full Stack Software Engineer & UX/UI Designer',
+        description: 'Hobby project with a creative friend.',
         toolTip: 'Personal Project MGA: Branding and Web Development, circa 2014',
         image: mgaWeb,
     },
     {
+        job: 'Full Stack Software Engineer & UX/UI Designer',
+        description: 'Constructed a hybrid mobile cross platform application with PhoneGap, and VisJS to present trial evidence.',
+        href: 'http://visuallaw.com',
         logo: visualLaw,
         toolTip: "Visual Law: Litigation App for presenting evidence. circa 2016",
         image: litApp,

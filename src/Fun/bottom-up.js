@@ -43,4 +43,4 @@ function fibonacciMemo(num, memo) {
     return memo[num] = fibonacciMemo(num - 1, memo) + fibonacciMemo(num - 2, memo);
 }
 
-console.log('fibannic number is:::', toFixed(fibonacciMemo(555)));
+console.log('fibannic number is:::', toFixed(fibonacciMemo(25)));
