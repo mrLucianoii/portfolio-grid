@@ -11,7 +11,6 @@ const height: number = window.innerHeight || 0;
 
 interface CanvasStars extends HTMLCanvasElement {
   id: string,
-  resize: any,
   height: number,
   width: number,
 }
@@ -25,8 +24,8 @@ class StarCanvas extends PureComponent {
     const path: Object = new Path.Circle({
       center: [0, 0],
       radius: 3,
-      fillColor: 'white',
-      strokeColor: 'purple',
+      fillColor: 'rgba(255, 255, 255, 1)',
+      strokeColor: 'rgba(153, 10, 37, 1)',
       strokeWidth: 2
     });
 
@@ -40,7 +39,7 @@ class StarCanvas extends PureComponent {
       placed.scale(i / count + 0.01);
       placed.data = {
         vector: new Point({
-          angle: Math.random() * 360,
+          angle: Math.random() * 355,
           length: (i / count) * Math.random() / 5
         })
       };
