@@ -3,9 +3,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
-
+import StarCanvas from './Stars';
 import PortfolioGridLayout from './PortfolioGrid';
 import Home from './landing/home';
 import './main.scss';
