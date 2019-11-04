@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import { Link } from 'react-router-dom';
-import Landing from './index';
+import StarCanvas from '../Stars';
+import Landing from '.';
 
 import './home.scss';
 

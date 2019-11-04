@@ -12,6 +12,7 @@
     "@types/react-router": "^5.1.1",
     "@types/react-router-dom": "^5.1.0",
     "node-sass": "^4.12.0",
+    "paper": "^0.12.3",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-redux": "^7.1.1",
@@ -21,6 +22,7 @@
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0",
     "require": "^2.4.20",
+    "semantic-ui-react": "^0.88.1",
     "typescript": "3.6.3"
   },
   "scripts": {
