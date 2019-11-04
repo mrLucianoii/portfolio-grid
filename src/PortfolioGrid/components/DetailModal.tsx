@@ -9,6 +9,7 @@ interface Props {
         image: string,
         description: string,
         detailBullet?: string[],
+        href?: string,
     },
 }
 
@@ -20,7 +21,14 @@ export class DetailModal extends PureComponent<Props, {}> {
         <Modal.Content image>
         <Image wrapped size='medium' src={detail.image} />
         <Modal.Description>
-            <Header>{detail.company}</Header>
+           {detail.href && <a href={detail.href}>
+                <Header>{detail.company}</Header>
+            </a>
+           }
+           {!detail.href && <a href={detail.href}>
+                <Header>{detail.company}</Header>
+            </a>
+           }
             <p>{detail.description}</p>
             {detail.detailBullet && <ul>
                 {
